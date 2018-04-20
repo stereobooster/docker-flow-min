@@ -1,4 +1,4 @@
-# Docker Flow Minimal
+# Docker Flow Min [![Build Status](https://travis-ci.org/stereobooster/docker-flow-min.svg?branch=master)](https://travis-ci.org/stereobooster/docker-flow-min)
 
 Inspired by [mdlavin/docker-flow](https://github.com/mdlavin/docker-flow) but smaller.
 
