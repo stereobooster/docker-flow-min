@@ -2,6 +2,11 @@
 
 Inspired by [mdlavin/docker-flow](https://github.com/mdlavin/docker-flow) but smaller.
 
+```
+stereobooster/flow              latest              a115f2580dd4        2 minutes ago       35.9MB
+mdlavin/flow                    latest              39310684f5aa        8 months ago        697MB
+```
+
 ## Why
 
 This container allows for the execution of Docker on machines
