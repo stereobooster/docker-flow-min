@@ -4,6 +4,7 @@ Inspired by [mdlavin/docker-flow](https://github.com/mdlavin/docker-flow) but sm
 
 ```
 stereobooster/flow              latest              a115f2580dd4        2 minutes ago       35.9MB
+stereobooster/flow-watch        latest              bee6f1b55063        3 minutes ago       72.1MB
 mdlavin/flow                    latest              39310684f5aa        8 months ago        697MB
 ```
 
@@ -17,13 +18,13 @@ against a project by executing the following command:
 ## Usage
 
 ```
-docker run -v $(pwd):/opt/project -w /opt/project stereobooster/flow
+docker run -v $(pwd):/opt/project -w /opt/project stereobooster/flow-watch
 ```
 
 ## Development
 
 ```
-docker build -t flow .
-docker tag flow stereobooster/flow
-docker push stereobooster/flow
+docker build -t flow-watch .
+docker tag flow-watch stereobooster/flow-watch
+docker push stereobooster/flow-watch
 ```
